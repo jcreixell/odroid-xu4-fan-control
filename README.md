@@ -1,18 +1,8 @@
-# odroid-xu4-fan-control
-Adopted settings to get odroid-xu3-fan-control working on XU4.
+### This is for the 4.y.y XU4 kernel
 
-Makes Odroid XU4 Lite fan silent on idle load
+If you are running the 3.y.y kernel then please use the mainline branch
 
-## Odroid XU4
-
-Will only work on:
-* *Ubuntu 15.04.1*
-
-Was not tested anywhere else. Might work though after adjusting script variables
-
-## Precautions
-
-### Only *Odroid XU4* is supported
+Makes Odroid XU4 fan silent on idle load and quite on medium load
 
 ### Is it safe to use?
 
@@ -29,7 +19,7 @@ When script quits it brings fan mode back to *automatic* "factory" settings.
 
 To make it start when system boots:
 
-edit odroid-fan-controller and add the path of the odroid-xu3-fan-control.sh script (full-pathname), then do the following to add it
+edit odroid-fan-controller and add the path of the odroid-xu4-fan-control.sh script (full-pathname), then do the following to add it
 to the runlevels
 
     cd /etc/init.d/
