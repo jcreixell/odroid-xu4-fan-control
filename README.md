@@ -15,7 +15,8 @@ When script quits it brings fan mode back to *automatic* "factory" settings.
     sudo apt-get install git
     git clone https://github.com/f1vefour/odroid-xu4-fan-control.git
     cd odroid-xu4-fan-control
-    sudo ./odroid-xu4-fan-control.sh
+    chmod +x odroid-xu4-fan-control.sh
+    sudo ./odroid-xu4-fan-control.sh
 
 ## Installation
 
