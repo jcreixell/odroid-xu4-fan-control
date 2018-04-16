@@ -1,6 +1,8 @@
 ### This is for the 4.y.y XU4 kernel
 
-If you are running the 3.y.y kernel then please use the mainline branch
+If you are running the 3.y.y kernel then please use the master branch
+
+### What does it do?
 
 Makes Odroid XU4 fan silent on idle load and quite on medium load
 
