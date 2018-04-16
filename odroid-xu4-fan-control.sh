@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Loud fan control script to lower speed of fun based on current
+# Loud fan control script to lower speed of fan based on current
 # max temperature of any cpu
 #
 # See README.md for details.
@@ -21,7 +21,7 @@ FAN_MODE_FILE="/sys/devices/odroid_fan.13/fan_mode"
 FAN_SPEED_FILE="/sys/devices/odroid_fan.13/pwm_duty"
 TEST_EVERY=3 #seconds
 new_fan_speed_default=80
-LOGGER_NAME=odroid-xu3-fan-control
+LOGGER_NAME=odroid-xu4-fan-control
 
 #make sure after quiting script fan goes to auto control
 function cleanup {
