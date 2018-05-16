@@ -27,7 +27,7 @@ to the runlevels
 
     cd /etc/init.d/
     #adjust to correct, absolute path below
-    sudo ln -s ~/odroid-xu4-fan-control/odroid-fan-controller
+    sudo ln -s ~/odroid-xu4-fan-control /etc/init.d/odroid-fan-controller
     sudo update-rc.d odroid-fan-controller defaults
 
 you can also use the following to start the controller
