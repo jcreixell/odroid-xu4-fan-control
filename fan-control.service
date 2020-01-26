@@ -1,0 +1,8 @@
+[Unit]
+Description=XU4 Fan Control
+
+[Service]
+ExecStart=/storage/fan-control/odroid-xu4-fan-control.sh
+
+[Install]
+WantedBy=multi-user.target
